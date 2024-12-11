@@ -14,7 +14,7 @@ const Faqs = () => {
           <div className="col-lg-5" data-aos="fade-up">
             <h2 className="faq-title">Have a question? Check out the FAQ</h2>
             <p className="faq-description">
-              Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet adipiscing sem neque sed ipsum.
+              Here you'll find answers to common questions about the services I provide, from custom development to project pricing and timelines.
             </p>
             <div className="faq-arrow d-none d-lg-block" data-aos="fade-up" data-aos-delay="200">
               <svg className="faq-arrow" width="200" height="211" viewBox="0 0 200 211" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,28 +27,28 @@ const Faqs = () => {
             <div className="faq-container">
               {[
                 {
-                  question: "Non consectetur a erat nam at lectus urna duis?",
-                  answer: "Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non."
+                  question: "What services do you provide?",
+                  answer: "I specialize in full-stack web development, API integrations, custom solutions using Laravel, Vue.js, and more. My projects include everything from school management systems to custom CRM integrations."
                 },
                 {
-                  question: "Feugiat scelerisque varius morbi enim nunc faucibus?",
-                  answer: "Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui."
+                  question: "How long do projects usually take?",
+                  answer: "Project timelines vary depending on complexity, but typically range from a few weeks to a couple of months. I work closely with clients to define clear milestones and deadlines."
                 },
                 {
-                  question: "Dolor sit amet consectetur adipiscing elit pellentesque?",
-                  answer: "Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis"
+                  question: "Do you offer ongoing support?",
+                  answer: "Yes, I offer ongoing maintenance and support for my clients after project completion. This includes bug fixes, updates, and potential feature additions."
                 },
                 {
-                  question: "Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?",
-                  answer: "Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui."
+                  question: "What is your pricing model?",
+                  answer: "I offer flexible pricing based on project scope, with both hourly and fixed-price options available. Detailed estimates are provided after assessing project requirements."
                 },
                 {
-                  question: "Tempus quam pellentesque nec nam aliquam sem et tortor?",
-                  answer: "Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in"
+                  question: "Can you integrate third-party APIs?",
+                  answer: "Yes, I have extensive experience integrating third-party APIs such as Stripe, Twilio, PayPal, and more into custom applications."
                 },
                 {
-                  question: "Perspiciatis quod quo quos nulla quo illum ullam?",
-                  answer: "Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et."
+                  question: "How do I get started with a project?",
+                  answer: "You can start by contacting me with your project idea. We'll discuss the details, timeline, and budget, then I’ll create a proposal outlining the scope and terms."
                 }
               ].map((faq, index) => (
                 <div className={`faq-item ${activeIndex === index ? 'faq-active' : ''}`} key={index}>
@@ -68,20 +68,19 @@ const Faqs = () => {
           </div>
         </div>
       </div>
-      <section id="call-to-action-2" className="call-to-action-2 section dark-background">
 
+      <section id="call-to-action-2" className="call-to-action-2 section dark-background">
         <div className="container">
           <div className="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
             <div className="col-xl-10">
               <div className="text-center">
-                <h3>Call To Action</h3>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a className="cta-btn" href="#">Call To Action</a>
+                <h3>Ready to start your project?</h3>
+                <p>Whether you're building a new web application or integrating a third-party API, I'm here to help you achieve your goals. Let's discuss your project today!</p>
+                <a className="cta-btn" href="#">Get In Touch</a>
               </div>
             </div>
           </div>
         </div>
-
       </section>
     </>
   );
