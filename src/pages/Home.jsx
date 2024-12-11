@@ -28,7 +28,7 @@ const Home = () => {
           <About />
         </section>
 
-        <section id="features" className="features section">
+        <section id="competencies" className="features section">
           <CoreCompetencies />
         </section>
 
