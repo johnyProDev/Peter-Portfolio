@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 const Pricing = () => {
   useEffect(() => {
-    // If you're using AOS, initialize it here
+    // If you're using AOS (Animate On Scroll), initialize it here
     if (typeof AOS !== 'undefined') {
       AOS.init();
     }
@@ -11,29 +11,29 @@ const Pricing = () => {
   const plans = [
     {
       name: 'Basic Plan',
-      price: '9.9',
+      price: '50',
       currency: '$',
       period: '/ month',
-      description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam.',
+      description: 'Get started with a simple, affordable plan tailored to small projects. Includes essential features for small-scale applications.',
       features: [
-        'Duis aute irure dolor',
-        'Excepteur sint occaecat',
-        'Nemo enim ipsam voluptatem',
+        'Custom web development using Vue.js',
+        'API integrations (e.g., Stripe, PayPal)',
+        '1 hour of support per month',
       ],
       link: '#',
       delay: 100,
     },
     {
       name: 'Standard Plan',
-      price: '19.9',
+      price: '100',
       currency: '$',
       period: '/ month',
-      description: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.',
+      description: 'Perfect for growing businesses that need more advanced features, integrations, and support. Includes everything in the Basic plan and more.',
       features: [
-        'Lorem ipsum dolor sit amet',
-        'Consectetur adipiscing elit',
-        'Sed do eiusmod tempor',
-        'Ut labore et dolore magna',
+        'All Basic Plan features',
+        'Additional API integrations (e.g., Twilio, Google Maps)',
+        '2 hours of support per month',
+        'Mobile app development (React Native)',
       ],
       link: '#',
       delay: 200,
@@ -41,16 +41,15 @@ const Pricing = () => {
     },
     {
       name: 'Premium Plan',
-      price: '39.9',
+      price: '200',
       currency: '$',
       period: '/ month',
-      description: 'Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae.',
+      description: 'For businesses that need full-scale solutions, including advanced mobile apps, cloud hosting, and top-tier support.',
       features: [
-        'Temporibus autem quibusdam',
-        'Saepe eveniet ut et voluptates',
-        'Nam libero tempore soluta',
-        'Cumque nihil impedit quo',
-        'Maxime placeat facere possimus',
+        'All Standard Plan features',
+        'Custom mobile app development (React Native)',
+        'Advanced cloud and database solutions',
+        'Priority support (5 hours/month)',
       ],
       link: '#',
       delay: 300,
@@ -62,7 +61,7 @@ const Pricing = () => {
       {/* Section Title */}
       <div className="container section-title" data-aos="fade-up">
         <h2>Pricing</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Choose the perfect plan to fit your needs, whether you’re just getting started or need full-scale solutions.</p>
       </div>
 
       <div className="container" data-aos="fade-up" data-aos-delay="100">
