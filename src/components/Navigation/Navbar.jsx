@@ -18,7 +18,7 @@ const Navbar = props => {
             <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
           </nav>
     
-          <a className="btn-getstarted" href="https://bootstrapmade.com/content/demo/iLanding/index.html#about">Get Started</a>
+          <a className="btn-getstarted" href="https://bootstrapmade.com/content/demo/iLanding/index.html#about">Get In Touch</a>
     
         </div>
       </header>

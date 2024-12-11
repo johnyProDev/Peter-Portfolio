@@ -9,23 +9,21 @@ const Hero = () => {
           <div className="hero-content" data-aos="fade-up" data-aos-delay="200">
             <div className="company-badge mb-4">
               <i className="bi bi-gear-fill me-2"></i>
-              Working for your success
+              Secure. Develop. Lead.
             </div>
 
             <h1 className="mb-4">
-              Maecenas Vitae <br />
-              Consectetur Led <br />
-              <span className="accent-text">Vestibulum Ante</span>
+              Peter Mwangi <br />
+              <span className="accent-text">Software Developer</span>
             </h1>
 
             <p className="mb-4 mb-md-5">
-              Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis
-              leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
+            Experienced IT professional with a strong background in software development and leadership. Proficient in design, installation, testing, and maintenance of software systems across various platforms and languages.
             </p>
 
             <div className="hero-buttons">
               <a href="#about" className="btn btn-primary me-0 me-sm-2 mx-1">
-                Get Started
+                Get In Touch
               </a>
               <a
                 href="https://www.youtube.com/watch?v=Y7f98aduVJ8"
@@ -42,12 +40,12 @@ const Hero = () => {
         <div className="col-lg-6">
           <div className="hero-image" data-aos="zoom-out" data-aos-delay="300">
             <img
-              src="https://bootstrapmade.com/content/demo/iLanding/assets/img/illustration-1.webp"
+              src="/logo/profile.png"
               alt="Hero"
               className="img-fluid"
             />
 
-            <div className="customers-badge">
+            {/* <div className="customers-badge">
               <div className="customer-avatars">
                 <img
                   src="https://bootstrapmade.com/content/demo/iLanding/assets/img/avatar-1.webp"
@@ -79,7 +77,7 @@ const Hero = () => {
               <p className="mb-0 mt-2">
                 12,000+ lorem ipsum dolor sit amet consectetur adipiscing elit
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -89,33 +87,33 @@ const Hero = () => {
         <div className="col-lg-3 col-md-6">
           <div className="stat-item">
             <div className="stat-icon">
-              <i className="bi bi-trophy"></i>
+              <i className="bi bi-code-slash"></i>
             </div>
             <div className="stat-content">
-              <h4>3x Won Awards</h4>
-              <p className="mb-0">Vestibulum ante ipsum</p>
+              <h4>150+ Projects</h4>
+              <p className="mb-0">Completed across diverse industries</p>
             </div>
           </div>
         </div>
         <div className="col-lg-3 col-md-6">
           <div className="stat-item">
             <div className="stat-icon">
-              <i className="bi bi-briefcase"></i>
+              <i className="bi bi-people"></i>
             </div>
             <div className="stat-content">
-              <h4>6.5k Faucibus</h4>
-              <p className="mb-0">Nullam quis ante</p>
+              <h4>10+ Clients</h4>
+              <p className="mb-0">Satisfied with tailored solutions</p>
             </div>
           </div>
         </div>
         <div className="col-lg-3 col-md-6">
           <div className="stat-item">
             <div className="stat-icon">
-              <i className="bi bi-graph-up"></i>
+              <i className="bi bi-lightbulb"></i>
             </div>
             <div className="stat-content">
-              <h4>80k Mauris</h4>
-              <p className="mb-0">Etiam sit amet orci</p>
+              <h4>8 Years</h4>
+              <p className="mb-0">Experience in software development</p>
             </div>
           </div>
         </div>
@@ -125,12 +123,13 @@ const Hero = () => {
               <i className="bi bi-award"></i>
             </div>
             <div className="stat-content">
-              <h4>6x Phasellus</h4>
-              <p className="mb-0">Vestibulum ante ipsum</p>
+              <h4>5 Awards</h4>
+              <p className="mb-0">For innovative tech solutions</p>
             </div>
           </div>
         </div>
       </div>
+
     </div>
   );
 };
