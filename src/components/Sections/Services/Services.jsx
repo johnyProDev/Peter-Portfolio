@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 const Services = () => {
   useEffect(() => {
-    // If you are using AOS, initialize it here
+    // If you are using AOS (Animate On Scroll), initialize it here
     if (typeof AOS !== 'undefined') {
       AOS.init();
     }
@@ -10,31 +10,31 @@ const Services = () => {
 
   const services = [
     {
-      icon: 'bi-activity',
-      title: 'Nesciunt Mete',
-      description: 'Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.',
-      link: 'https://bootstrapmade.com/content/demo/iLanding/service-details.html',
+      icon: 'bi-laptop',
+      title: 'Custom Web Development',
+      description: 'I specialize in creating dynamic and responsive websites using the latest web technologies like React, Vue.js, and Laravel. From frontend to backend, I provide full-stack solutions tailored to your needs.',
+      link: '#custom-web-development',
       delay: 100,
     },
     {
-      icon: 'bi-diagram-3',
-      title: 'Eosle Commodi',
-      description: 'Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.',
-      link: 'https://bootstrapmade.com/content/demo/iLanding/service-details.html',
+      icon: 'bi-gear',
+      title: 'API Integrations',
+      description: 'I help integrate third-party APIs such as PayPal, Stripe, Twilio, and Google Maps into your application, ensuring seamless functionality and boosting the efficiency of your digital platforms.',
+      link: '#api-integrations',
       delay: 200,
     },
     {
-      icon: 'bi-easel',
-      title: 'Ledo Markt',
-      description: 'Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.',
-      link: 'https://bootstrapmade.com/content/demo/iLanding/service-details.html',
+      icon: 'bi-layers',
+      title: 'Mobile App Development',
+      description: 'I build cross-platform mobile applications using React Native and other frameworks, focusing on performance, scalability, and user experience to ensure your app stands out.',
+      link: '#mobile-app-development',
       delay: 300,
     },
     {
-      icon: 'bi-clipboard-data',
-      title: 'Asperiores Commodit',
-      description: 'Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.',
-      link: 'https://bootstrapmade.com/content/demo/iLanding/service-details.html',
+      icon: 'bi-bar-chart',
+      title: 'Cloud and Database Solutions',
+      description: 'I provide robust cloud hosting and database management solutions, ensuring scalability and security. I integrate technologies such as AWS and Google Cloud to handle your data and server needs efficiently.',
+      link: '#cloud-database-solutions',
       delay: 400,
     },
   ];
@@ -44,7 +44,7 @@ const Services = () => {
       {/* Section Title */}
       <div className="container section-title" data-aos="fade-up">
         <h2>Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Delivering high-quality software solutions with a focus on innovation, performance, and user satisfaction.</p>
       </div>
 
       <div className="container" data-aos="fade-up" data-aos-delay="100">
@@ -64,7 +64,7 @@ const Services = () => {
                   <h3>{service.title}</h3>
                   <p>{service.description}</p>
                   <a href={service.link} className="read-more">
-                    Read More <i className="bi bi-arrow-right"></i>
+                    Learn More <i className="bi bi-arrow-right"></i>
                   </a>
                 </div>
               </div>
