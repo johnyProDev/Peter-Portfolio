@@ -5,8 +5,7 @@ import "../utils/main";
 import Footer from '../components/Footer/Footer';
 import Hero from '../components/Sections/Hero/Hero';
 import About from '../components/Sections/About/About';
-import Features from '../components/Sections/Features/Features';
-import Clients from '../components/Sections/Clients/Clients';
+import CoreCompetencies from '../components/Sections/CoreCompetencies/CoreCompetencies';
 import Testimonials from '../components/Sections/Testimonials/Testimonials';
 import Stats from '../components/Sections/Stats/Stats';
 import Services from '../components/Sections/Services/Services';
@@ -30,12 +29,9 @@ const Home = () => {
         </section>
 
         <section id="features" className="features section">
-          <Features />
+          <CoreCompetencies />
         </section>
 
-        <section id="clients" className="clients section">
-          <Clients />
-        </section>
 
         <section id="testimonials" className="testimonials section light-background">
           <Testimonials />

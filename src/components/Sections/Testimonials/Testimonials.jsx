@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 const Testimonials = () => {
   useEffect(() => {
-    // If you're using the AOS library for animations, initialize it here
+    // Initialize AOS library for animations if included in the project
     if (typeof AOS !== 'undefined') {
       AOS.init();
     }
@@ -10,28 +10,28 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      name: "Saul Goodman",
-      role: "CEO & Founder",
+      name: "John Doe",
+      role: "Tech Lead, Innovatech",
       image: "https://bootstrapmade.com/content/demo/iLanding/assets/img/testimonials/testimonials-1.jpg",
-      text: "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.",
+      text: "Peter's technical expertise and innovative approach turned our vision into a reality. His solutions were not only effective but also scalable.",
     },
     {
-      name: "Sara Wilsson",
-      role: "Designer",
+      name: "Jane Smith",
+      role: "Product Manager, BuildPro",
       image: "https://bootstrapmade.com/content/demo/iLanding/assets/img/testimonials/testimonials-2.jpg",
-      text: "Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.",
+      text: "Collaborating with Peter was a seamless experience. His ability to solve complex problems is unparalleled. Highly recommend working with him.",
     },
     {
-      name: "Jena Karlis",
-      role: "Store Owner",
+      name: "Michael Carter",
+      role: "CEO, DevWorks",
       image: "https://bootstrapmade.com/content/demo/iLanding/assets/img/testimonials/testimonials-3.jpg",
-      text: "Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.",
+      text: "Peter delivered exceptional results under tight deadlines. His professionalism and dedication to quality are truly remarkable.",
     },
     {
-      name: "Matt Brandon",
-      role: "Freelancer",
+      name: "Lisa Howard",
+      role: "Freelance Designer",
       image: "https://bootstrapmade.com/content/demo/iLanding/assets/img/testimonials/testimonials-4.jpg",
-      text: "Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.",
+      text: "Peter's backend skills streamlined my designs with seamless integration, making the final product stunning and functional. He's an invaluable asset.",
     },
   ];
 
@@ -40,7 +40,7 @@ const Testimonials = () => {
       {/* Section Title */}
       <div className="container section-title" data-aos="fade-up">
         <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>What clients and collaborators say about working with Peter</p>
       </div>
 
       {/* Testimonials */}
