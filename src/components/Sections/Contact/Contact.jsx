@@ -6,7 +6,7 @@ const Contact = () => {
       {/* Section Title */}
       <div className="container section-title" data-aos="fade-up">
         <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Feel free to reach out to me for any software development inquiries or project collaborations!</p>
       </div>
       {/* End Section Title */}
 
@@ -16,16 +16,16 @@ const Contact = () => {
           <div className="col-lg-5">
             <div className="info-box" data-aos="fade-up" data-aos-delay="200">
               <h3>Contact Info</h3>
-              <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p>
+              <p>I'm always open to new opportunities and would love to discuss your next project. Reach out to me through the channels below:</p>
 
               <div className="info-item" data-aos="fade-up" data-aos-delay="300">
                 <div className="icon-box">
                   <i className="bi bi-geo-alt"></i>
                 </div>
                 <div className="content">
-                  <h4>Our Location</h4>
-                  <p>A108 Adam Street</p>
-                  <p>New York, NY 535022</p>
+                  <h4>My Location</h4>
+                  <p>123 Developer Lane</p>
+                  <p>Nairobi, Kenya</p>
                 </div>
               </div>
 
@@ -35,8 +35,8 @@ const Contact = () => {
                 </div>
                 <div className="content">
                   <h4>Phone Number</h4>
-                  <p>+1 5589 55488 55</p>
-                  <p>+1 6678 254445 41</p>
+                  <p>+254 700 123 456</p>
+                  <p>+254 712 654 321</p>
                 </div>
               </div>
 
@@ -47,10 +47,10 @@ const Contact = () => {
                 <div className="content">
                   <h4>Email Address</h4>
                   <p>
-                    <a href="mailto:info@example.com">info@example.com</a>
+                    <a href="mailto:contact@johnyirush.com">contact@johnyirush.com</a>
                   </p>
                   <p>
-                    <a href="mailto:support@example.com">support@example.com</a>
+                    <a href="mailto:support@johnyirush.com">support@johnyirush.com</a>
                   </p>
                 </div>
               </div>
@@ -62,10 +62,10 @@ const Contact = () => {
           <div className="col-lg-7">
             <div className="contact-form" data-aos="fade-up" data-aos-delay="300">
               <h3>Get In Touch</h3>
-              <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p>
+              <p>Feel free to reach out for any inquiries, whether it's project-related or just a general question. I'm here to help!</p>
 
               <form
-                action="https://bootstrapmade.com/content/demo/iLanding/forms/contact.php"
+                action="https://yourbackendendpoint.com/contact"  // Replace with your backend endpoint
                 method="post"
                 className="php-email-form"
                 data-aos="fade-up"
