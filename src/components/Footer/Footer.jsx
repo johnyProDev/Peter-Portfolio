@@ -8,64 +8,61 @@ const Footer = props => {
             <div className="container footer-top">
                 <div className="row gy-4">
                     <div className="col-lg-4 col-md-6 footer-about">
-                        <a href="https://bootstrapmade.com/content/demo/iLanding/index.html" className="logo d-flex align-items-center">
-                            <span className="sitename">iLanding</span>
+                        <a href="https://johnyirush.github.io" className="logo d-flex align-items-center">
+                            <span className="sitename">Software Developer</span>
                         </a>
                         <div className="footer-contact pt-3">
-                            <p>A108 Adam Street</p>
-                            <p>New York, NY 535022</p>
-                            <p className="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-                            <p><strong>Email:</strong> <span><a href="https://bootstrapmade.com/cdn-cgi/l/email-protection" className="__cf_email__" data-cfemail="c5acaba3aa85a0bda4a8b5a9a0eba6aaa8">[email&#160;protected]</a></span></p>
+                            <p>Nairobi, Kenya</p>
+                            <p className="mt-3"><strong>Phone:</strong> <span>+254 7247 734 26</span></p>
+                            <p><strong>Email:</strong> <span><a href="mailto:contact@johnyirush.com">contact@johnyirush.com</a></span></p>
                         </div>
                         <div className="social-links d-flex mt-4">
-                            <a href="#"><i className="bi bi-twitter-x"></i></a>
-                            <a href="#"><i className="bi bi-facebook"></i></a>
-                            <a href="#"><i className="bi bi-instagram"></i></a>
-                            <a href="#"><i className="bi bi-linkedin"></i></a>
+                            <a href="https://twitter.com/johnyirush" target="_blank" rel="noopener noreferrer"><i className="bi bi-twitter"></i></a>
+                            <a href="https://www.facebook.com/johnyirush" target="_blank" rel="noopener noreferrer"><i className="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/johnyirush" target="_blank" rel="noopener noreferrer"><i className="bi bi-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/johnyirush" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></a>
                         </div>
                     </div>
 
                     <div className="col-lg-2 col-md-3 footer-links">
                         <h4>Useful Links</h4>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Terms of service</a></li>
-                            <li><a href="#">Privacy policy</a></li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#blog">Blog</a></li>
                         </ul>
                     </div>
 
                     <div className="col-lg-2 col-md-3 footer-links">
-                        <h4>Our Services</h4>
+                        <h4>My Services</h4>
                         <ul>
-                            <li><a href="#">Web Design</a></li>
-                            <li><a href="#">Web Development</a></li>
-                            <li><a href="#">Product Management</a></li>
-                            <li><a href="#">Marketing</a></li>
-                            <li><a href="#">Graphic Design</a></li>
+                            <li><a href="#web-development">Web Development</a></li>
+                            <li><a href="#app-development">App Development</a></li>
+                            <li><a href="#api-integration">API Integration</a></li>
+                            <li><a href="#consulting">Consulting</a></li>
+                            <li><a href="#design">UI/UX Design</a></li>
                         </ul>
                     </div>
 
                     <div className="col-lg-2 col-md-3 footer-links">
-                        <h4>Hic solutasetp</h4>
+                        <h4>Support</h4>
                         <ul>
-                            <li><a href="#">Molestiae accusamus iure</a></li>
-                            <li><a href="#">Excepturi dignissimos</a></li>
-                            <li><a href="#">Suscipit distinctio</a></li>
-                            <li><a href="#">Dilecta</a></li>
-                            <li><a href="#">Sit quas consectetur</a></li>
+                            <li><a href="mailto:support@johnyirush.com">Email Support</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                            <li><a href="#terms">Terms of Service</a></li>
+                            <li><a href="#privacy">Privacy Policy</a></li>
                         </ul>
                     </div>
 
                     <div className="col-lg-2 col-md-3 footer-links">
-                        <h4>Nobis illum</h4>
+                        <h4>Stay Connected</h4>
                         <ul>
-                            <li><a href="#">Ipsam</a></li>
-                            <li><a href="#">Laudantium dolorum</a></li>
-                            <li><a href="#">Dinera</a></li>
-                            <li><a href="#">Trodelas</a></li>
-                            <li><a href="#">Flexo</a></li>
+                            <li><a href="https://twitter.com/johnyirush" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                            <li><a href="https://www.linkedin.com/in/johnyirush" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                            <li><a href="https://www.instagram.com/johnyirush" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                            <li><a href="https://www.github.com/johnyirush" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                         </ul>
                     </div>
 
@@ -73,9 +70,9 @@ const Footer = props => {
             </div>
 
             <div className="container copyright text-center mt-4">
-                <p>© <span>Copyright</span> <strong className="px-1 sitename">iLanding</strong> <span>All Rights Reserved</span></p>
+                <p>© <span>Copyright</span> <strong className="px-1 sitename">Software Developer</strong> <span>All Rights Reserved</span></p>
                 <div className="credits">
-                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                    Designed by <a href="https://johnyirush.github.io">Peter Mwangi</a>
                 </div>
             </div>
 

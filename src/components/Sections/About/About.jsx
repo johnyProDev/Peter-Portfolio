@@ -51,7 +51,7 @@ const About = () => {
                   <i className="bi bi-telephone-fill"></i>
                   <div>
                     <p className="contact-label">Call me anytime</p>
-                    <p className="contact-number">+254 712 345678</p>
+                    <p className="contact-number">+254 7247 734 26</p>
                   </div>
                 </div>
               </div>
