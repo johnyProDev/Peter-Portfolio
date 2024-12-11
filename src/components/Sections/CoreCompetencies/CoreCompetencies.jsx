@@ -9,7 +9,8 @@ const CoreCompetencies = () => {
   };
 
   return (
-    <section>
+    <>
+        <section>
       {/* Section Title */}
       <div className="container section-title" data-aos="fade-up">
         <h2>Core Competencies</h2>
@@ -124,6 +125,143 @@ const CoreCompetencies = () => {
         </div>
       </div>
     </section>
+         {/* Features Cards Section */}
+         <section id="features-cards" className="features-cards section">
+        <div className="container">
+          <div className="row gy-4">
+            {[
+              {
+                icon: "bi-code-square",
+                title: "Custom Development with Open Source APIs",
+                text: "Skilled in creating custom applications and integrations using open source APIs like Twilio, PayPal, and Stripe.",
+                color: "orange",
+              },
+              {
+                icon: "bi-server",
+                title: "Advanced Backend Development",
+                text: "Expert in building robust backend systems using Laravel, PHP, and multi-tenancy architecture.",
+                color: "blue",
+              },
+              {
+                icon: "bi-people",
+                title: "User Authentication & Payment Integration",
+                text: "Experience in implementing secure user authentication and payment systems, such as PayPal and M-Pesa integrations.",
+                color: "green",
+              },
+              {
+                icon: "bi-laptop",
+                title: "Responsive Web Development",
+                text: "Proficient in creating responsive web applications using Vue.js, React, and Bootstrap.",
+                color: "red",
+              },
+            ].map((feature, index) => (
+              <div className="col-xl-3 col-md-6" key={index} data-aos="zoom-in" data-aos-delay={(index + 1) * 100}>
+                <div className={`feature-box ${feature.color}`}>
+                  <i className={`bi ${feature.icon}`}></i>
+                  <h4>{feature.title}</h4>
+                  <p>{feature.text}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Features 2 Section */}
+      <section id="features-2" className="features-2 section">
+        <div className="container" data-aos="fade-up" data-aos-delay="100">
+          <div className="row align-items-center">
+            <div className="col-lg-4">
+              <div className="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="200">
+                <div className="d-flex align-items-center justify-content-end gap-4">
+                  <div className="feature-content">
+                    <h3>Cross-Platform Compatibility</h3>
+                    <p>Built applications that run seamlessly on web, mobile (Android), and smart TV platforms, ensuring accessibility across devices.</p>
+                  </div>
+                  <div className="feature-icon flex-shrink-0">
+                    <i className="bi bi-display"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div className="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="300">
+                <div className="d-flex align-items-center justify-content-end gap-4">
+                  <div className="feature-content">
+                    <h3>API Integrations</h3>
+                    <p>Expert in integrating third-party services like Twilio, Stripe, PayPal, and Google Maps to enhance application functionality.</p>
+                  </div>
+                  <div className="feature-icon flex-shrink-0">
+                    <i className="bi bi-code-square"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div className="feature-item text-end" data-aos="fade-right" data-aos-delay="400">
+                <div className="d-flex align-items-center justify-content-end gap-4">
+                  <div className="feature-content">
+                    <h3>Data Security & Payment Gateway</h3>
+                    <p>Implementing secure payment gateways like PayPal and M-Pesa, ensuring smooth transactions with high-level data protection.</p>
+                  </div>
+                  <div className="feature-icon flex-shrink-0">
+                    <i className="bi bi-shield-lock"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+              <div className="phone-mockup text-center">
+                <img
+                  src="https://bootstrapmade.com/content/demo/iLanding/assets/img/phone-app-screen.webp"
+                  alt="Phone Mockup"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+
+            <div className="col-lg-4">
+              <div className="feature-item mb-5" data-aos="fade-left" data-aos-delay="200">
+                <div className="d-flex align-items-center gap-4">
+                  <div className="feature-icon flex-shrink-0">
+                    <i className="bi bi-phone"></i>
+                  </div>
+                  <div className="feature-content">
+                    <h3>Fully Responsive & Retina Ready</h3>
+                    <p>Responsive and retina-ready web applications built with Vue.js and React, ensuring flawless performance on all devices.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="feature-item mb-5" data-aos="fade-left" data-aos-delay="300">
+                <div className="d-flex align-items-center gap-4">
+                  <div className="feature-icon flex-shrink-0">
+                    <i className="bi bi-browser-chrome"></i>
+                  </div>
+                  <div className="feature-content">
+                    <h3>Browser Compatibility</h3>
+                    <p>Ensuring applications run smoothly on all major browsers, providing a consistent experience across different platforms.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="feature-item" data-aos="fade-left" data-aos-delay="400">
+                <div className="d-flex align-items-center gap-4">
+                  <div className="feature-icon flex-shrink-0">
+                    <i className="bi bi-cloud"></i>
+                  </div>
+                  <div className="feature-content">
+                    <h3>Cloud-Based Solutions</h3>
+                    <p>Developing scalable cloud-based systems, including multi-tenancy architecture for enterprise-level applications.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+
+    
   );
 };
 
