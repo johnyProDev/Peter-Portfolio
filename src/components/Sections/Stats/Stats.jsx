@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 const Stats = () => {
   useEffect(() => {
-    // If using purecounter.js or any similar library, initialize here
+    // If using PureCounter.js or any similar library, initialize here
     if (typeof PureCounter !== 'undefined') {
       new PureCounter();
     }
@@ -11,23 +11,23 @@ const Stats = () => {
   const stats = [
     {
       start: 0,
-      end: 232,
-      label: 'Clients',
+      end: 15,
+      label: 'Projects Completed',
     },
     {
       start: 0,
-      end: 521,
-      label: 'Projects',
+      end: 8,
+      label: 'Clients Served',
     },
     {
       start: 0,
-      end: 1453,
-      label: 'Hours Of Support',
+      end: 1200,
+      label: 'Hours Spent on Development',
     },
     {
       start: 0,
-      end: 32,
-      label: 'Workers',
+      end: 10,
+      label: 'Technologies Used',
     },
   ];
 
