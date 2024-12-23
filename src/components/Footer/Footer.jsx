@@ -14,7 +14,7 @@ const Footer = props => {
                         <div className="footer-contact pt-3">
                             <p>Nairobi, Kenya</p>
                             <p className="mt-3"><strong>Phone:</strong> <span>+254 7247 734 26</span></p>
-                            <p><strong>Email:</strong> <span><a href="mailto:contact@johnyirush.com">contact@johnyirush.com</a></span></p>
+                            <p><strong>Email:</strong> <span><a href="mailto:pminnovest@gmail.com">pminnovest@gmail.com</a></span></p>
                         </div>
                         <div className="social-links d-flex mt-4">
                             <a href="https://twitter.com/johnyirush" target="_blank" rel="noopener noreferrer"><i className="bi bi-twitter"></i></a>
@@ -24,18 +24,17 @@ const Footer = props => {
                         </div>
                     </div>
 
-                    <div className="col-lg-2 col-md-3 footer-links">
+                    <div className="col-lg-3 col-md-3 footer-links">
                         <h4>Useful Links</h4>
                         <ul>
-                            <li><a href="#home">Home</a></li>
+                            <li><a href="#hero">Home</a></li>
                             <li><a href="#about">About</a></li>
                             <li><a href="#projects">Projects</a></li>
                             <li><a href="#contact">Contact</a></li>
-                            <li><a href="#blog">Blog</a></li>
                         </ul>
                     </div>
 
-                    <div className="col-lg-2 col-md-3 footer-links">
+                    <div className="col-lg-3 col-md-3 footer-links">
                         <h4>My Services</h4>
                         <ul>
                             <li><a href="#web-development">Web Development</a></li>
@@ -45,27 +44,6 @@ const Footer = props => {
                             <li><a href="#design">UI/UX Design</a></li>
                         </ul>
                     </div>
-
-                    <div className="col-lg-2 col-md-3 footer-links">
-                        <h4>Support</h4>
-                        <ul>
-                            <li><a href="mailto:support@johnyirush.com">Email Support</a></li>
-                            <li><a href="#faq">FAQ</a></li>
-                            <li><a href="#terms">Terms of Service</a></li>
-                            <li><a href="#privacy">Privacy Policy</a></li>
-                        </ul>
-                    </div>
-
-                    <div className="col-lg-2 col-md-3 footer-links">
-                        <h4>Stay Connected</h4>
-                        <ul>
-                            <li><a href="https://twitter.com/johnyirush" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-                            <li><a href="https://www.linkedin.com/in/johnyirush" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-                            <li><a href="https://www.instagram.com/johnyirush" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-                            <li><a href="https://www.github.com/johnyirush" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                        </ul>
-                    </div>
-
                 </div>
             </div>
 

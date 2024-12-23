@@ -9,7 +9,7 @@ const About = () => {
           <span className="about-meta">ABOUT ME</span>
           <h2 className="about-title">Innovative Solutions for Modern Challenges</h2>
           <p className="about-description">
-            I am Peter Mwangi, an experienced IT professional specializing in software development and security.
+            I am Peter Mwangi, an experienced IT professional specializing in software development and security. 
             With a strong foundation in design, testing, and maintaining software systems, I am committed to delivering robust
             and scalable solutions across various platforms and technologies.
           </p>
@@ -57,6 +57,14 @@ const About = () => {
               </div>
             </div>
           </div>
+
+          {/* Education Section */}
+          <div className="education-section mt-4">
+            <h4>Education</h4>
+            <p><strong>Bachelor's degree in Information Technology</strong> (2020 - 2023)</p>
+            <p>Mount Kenya University - Kenya</p>
+            <p><strong>Relevant Coursework:</strong> Advanced Data Structures and Computer Algorithms, Artificial Intelligence, Mobile Applications Development, Advanced Server Side Request Forgery, Network Operating Systems, Database Systems.</p>
+          </div>
         </div>
 
         {/* Right Column */}
@@ -75,9 +83,20 @@ const About = () => {
               />
             </div>
             <div className="experience-badge floating">
-              <h3>10+ <span>Years</span></h3>
+              <h3>2+ <span>Years</span></h3>
               <p>Of experience in software development</p>
             </div>
+          </div>
+                    {/* Professional Experience Section */}
+                    <div className="professional-experience mt-4">
+            <h4>Professional Experience</h4>
+            <p><strong>Developer at Fahrenheit Digital Agency</strong> (2022 - Present, Part-Time)</p>
+            <p><strong>Location:</strong> Nakuru</p>
+            <ul>
+              <li>Developed a REST API using the Django framework that allowed communication between multiple services</li>
+              <li>Developed a full stack web application from scratch, including back-end services, front-end interface, and database</li>
+              <li>Deployed a web application firewall to protect against malicious web-based attacks</li>
+            </ul>
           </div>
         </div>
       </div>

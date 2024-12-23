@@ -22,7 +22,7 @@ const Hero = () => {
             </p>
 
             <div className="hero-buttons">
-              <a href="#about" className="btn btn-primary me-0 me-sm-2 mx-1">
+              <a href="#contact" className="btn btn-primary me-0 me-sm-2 mx-1">
                 Get In Touch
               </a>
               <a
@@ -112,7 +112,7 @@ const Hero = () => {
               <i className="bi bi-lightbulb"></i>
             </div>
             <div className="stat-content">
-              <h4>8 Years</h4>
+              <h4>2 Years</h4>
               <p className="mb-0">Experience in software development</p>
             </div>
           </div>

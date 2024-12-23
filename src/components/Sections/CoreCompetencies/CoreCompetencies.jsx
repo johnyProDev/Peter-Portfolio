@@ -10,149 +10,177 @@ const CoreCompetencies = () => {
 
   return (
     <>
-        <section>
-      {/* Section Title */}
-      <div className="container section-title" data-aos="fade-up">
-        <h2>Core Competencies</h2>
-        <p>Highlighting the technical skills and expertise that define Peter's career</p>
-      </div>
-      {/* End Section Title */}
-
-      <div className="container">
-        <div className="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-          <Box sx={{ width: '100%' }}>
-            <Tabs
-              value={activeTab}
-              onChange={handleTabChange}
-              centered
-              sx={{
-                '& .MuiTabs-indicator': { backgroundColor: '#007bff' },
-                '& .MuiTab-root': {
-                  fontWeight: 'bold',
-                  textTransform: 'none',
-                  '&.Mui-selected': { color: '#007bff' },
-                },
-              }}
-            >
-              <Tab label="Frontend Development" />
-              <Tab label="Backend Development" />
-              <Tab label="DevOps & Tools" />
-            </Tabs>
-          </Box>
+      <section>
+        {/* Section Title */}
+        <div className="container section-title" data-aos="fade-up">
+          <h2>Skills & Competencies</h2>
+          <p>Highlighting hands-on experience and key technical skills across various technologies</p>
         </div>
+        {/* End Section Title */}
 
-        <div className="tab-content" data-aos="fade-up" data-aos-delay="200">
-          {activeTab === 0 && (
-            <Box>
-              <TabPanel>
-                <div className="row">
-                  <div className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                    <h3>Modern Frontend Frameworks</h3>
-                    <p className="fst-italic">
-                      Expert in building responsive and dynamic user interfaces using modern frameworks and libraries.
-                    </p>
-                    <ul>
-                      <li><i className="bi bi-check2-all"></i> Proficient in React, Vue.js, and Angular</li>
-                      <li><i className="bi bi-check2-all"></i> Expertise in CSS frameworks like Bootstrap and Tailwind</li>
-                      <li><i className="bi bi-check2-all"></i> Skilled in creating interactive and accessible UIs</li>
-                    </ul>
-                  </div>
-                  <div className="col-lg-6 order-1 order-lg-2 text-center">
-                    <img
-                      src="https://bootstrapmade.com/content/demo/iLanding/assets/img/features-illustration-1.webp"
-                      alt="Frontend Development"
-                      className="img-fluid"
-                    />
-                  </div>
-                </div>
-              </TabPanel>
+        <div className="container">
+          <div className="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <Box sx={{ width: '100%' }}>
+              <Tabs
+                value={activeTab}
+                onChange={handleTabChange}
+                centered
+                sx={{
+                  '& .MuiTabs-indicator': { backgroundColor: '#007bff' },
+                  '& .MuiTab-root': {
+                    fontWeight: 'bold',
+                    textTransform: 'none',
+                    '&.Mui-selected': { color: '#007bff' },
+                  },
+                }}
+              >
+                <Tab label="Languages & Frameworks" />
+                <Tab label="DevOps & Tools" />
+                <Tab label="Databases & Other Technologies" />
+              </Tabs>
             </Box>
-          )}
+          </div>
 
-          {activeTab === 1 && (
-            <Box>
-              <TabPanel>
-                <div className="row">
-                  <div className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                    <h3>Robust Backend Systems</h3>
-                    <p className="fst-italic">
-                      Crafting scalable and secure backend solutions to power modern applications.
-                    </p>
-                    <ul>
-                      <li><i className="bi bi-check2-all"></i> Experience with Node.js, Laravel, and Django</li>
-                      <li><i className="bi bi-check2-all"></i> Skilled in RESTful API and GraphQL development</li>
-                      <li><i className="bi bi-check2-all"></i> Strong database management skills with MySQL and MongoDB</li>
-                    </ul>
+          <div className="tab-content" data-aos="fade-up" data-aos-delay="200">
+            {activeTab === 0 && (
+              <Box>
+                <TabPanel>
+                  <div className="row">
+                    <div className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                      <h3>Languages & Frameworks</h3>
+                      <p className="fst-italic">
+                        Proficient in building robust applications across a variety of languages and frameworks.
+                      </p>
+                      <ul className="list-unstyled">
+                        <li><i className="bi bi-check2-all text-primary"></i> <span>Python (Django, Pandas, Matplotlib)</span></li>
+                        <li><i className="bi bi-check2-all text-primary"></i> <span>JavaScript (React, Redux, Node.js)</span></li>
+                        <li><i className="bi bi-check2-all text-primary"></i> <span>Java (Spring Boot)</span></li>
+                        <li><i className="bi bi-check2-all text-primary"></i> <span>Mobile Development with React Native (iOS, Android, Web)</span></li>
+                        <li><i className="bi bi-check2-all text-primary"></i> <span>Frontend Development with React, Vue.js, and Angular</span></li>
+                      </ul>
+                    </div>
+                    <div className="col-lg-6 order-1 order-lg-2 text-center">
+                      <img
+                        src="https://bootstrapmade.com/content/demo/iLanding/assets/img/features-illustration-1.webp"
+                        alt="Languages & Frameworks"
+                        className="img-fluid"
+                      />
+                    </div>
                   </div>
-                  <div className="col-lg-6 order-1 order-lg-2 text-center">
-                    <img
-                      src="https://bootstrapmade.com/content/demo/iLanding/assets/img/features-illustration-2.webp"
-                      alt="Backend Development"
-                      className="img-fluid"
-                    />
-                  </div>
-                </div>
-              </TabPanel>
-            </Box>
-          )}
+                </TabPanel>
+              </Box>
+            )}
 
-          {activeTab === 2 && (
-            <Box>
-              <TabPanel>
-                <div className="row">
-                  <div className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                    <h3>DevOps & Tooling</h3>
-                    <p className="fst-italic">
-                      Streamlining development and deployment processes with effective tools and practices.
-                    </p>
-                    <ul>
-                      <li><i className="bi bi-check2-all"></i> Proficiency in Docker, Kubernetes, and CI/CD pipelines</li>
-                      <li><i className="bi bi-check2-all"></i> Expertise in version control systems like Git</li>
-                      <li><i className="bi bi-check2-all"></i> Skilled in cloud platforms including AWS and Azure</li>
-                    </ul>
+            {activeTab === 1 && (
+              <Box>
+                <TabPanel>
+                  <div className="row">
+                    <div className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                      <h3>DevOps & Tools</h3>
+                      <p className="fst-italic">
+                        Experienced in utilizing various DevOps tools to streamline deployment and enhance productivity.
+                      </p>
+                      <ul className="list-unstyled">
+                        <li><i className="bi bi-check2-all text-primary"></i> Proficiency in Docker (Docker Compose)</li>
+                        <li><i className="bi bi-check2-all text-primary"></i> Nginx, Redis, Celery, Flower</li>
+                        <li><i className="bi bi-check2-all text-primary"></i> Version control with Git and CI/CD workflows</li>
+                      </ul>
+                    </div>
+                    <div className="col-lg-6 order-1 order-lg-2 text-center">
+                      <img
+                        src="https://bootstrapmade.com/content/demo/iLanding/assets/img/features-illustration-2.webp"
+                        alt="DevOps & Tools"
+                        className="img-fluid"
+                      />
+                    </div>
                   </div>
-                  <div className="col-lg-6 order-1 order-lg-2 text-center">
-                    <img
-                      src="https://bootstrapmade.com/content/demo/iLanding/assets/img/features-illustration-3.webp"
-                      alt="DevOps & Tools"
-                      className="img-fluid"
-                    />
+                </TabPanel>
+              </Box>
+            )}
+
+            {activeTab === 2 && (
+              <Box>
+                <TabPanel>
+                  <div className="row">
+                    <div className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                      <h3>Databases & Other Technologies</h3>
+                      <p className="fst-italic">
+                        Proficient in managing databases and utilizing a variety of additional technologies to enhance applications.
+                      </p>
+                      <ul className="list-unstyled">
+                        <li><i className="bi bi-check2-all text-primary"></i> Databases: PostgreSQL, MySQL, MongoDB</li>
+                        <li><i className="bi bi-check2-all text-primary"></i> Expertise in data processing with Pandas and Matplotlib</li>
+                        <li><i className="bi bi-check2-all text-primary"></i> Excel: VLOOKUP, Pivot Tables, and advanced formulas</li>
+                        <li><i className="bi bi-check2-all text-primary"></i> Microsoft Power BI for data visualization</li>
+                      </ul>
+                    </div>
+                    <div className="col-lg-6 order-1 order-lg-2 text-center">
+                      <img
+                        src="https://bootstrapmade.com/content/demo/iLanding/assets/img/features-illustration-3.webp"
+                        alt="Databases & Other Technologies"
+                        className="img-fluid"
+                      />
+                    </div>
                   </div>
-                </div>
-              </TabPanel>
-            </Box>
-          )}
+                </TabPanel>
+              </Box>
+            )}
+          </div>
         </div>
-      </div>
-    </section>
-         {/* Features Cards Section */}
-         <section id="features-cards" className="features-cards section">
+      </section>
+
+      {/* Features Cards Section */}
+      <section id="features-cards" className="features-cards section">
         <div className="container">
           <div className="row gy-4">
             {[
               {
-                icon: "bi-code-square",
-                title: "Custom Development with Open Source APIs",
-                text: "Skilled in creating custom applications and integrations using open source APIs like Twilio, PayPal, and Stripe.",
-                color: "orange",
-              },
-              {
-                icon: "bi-server",
-                title: "Advanced Backend Development",
-                text: "Expert in building robust backend systems using Laravel, PHP, and multi-tenancy architecture.",
+                icon: "bi-code-slash",
+                title: "Python Development",
+                text: "Hands-on experience with Python, including frameworks like Django, and libraries such as Pandas and Matplotlib for data analysis and visualization.",
                 color: "blue",
               },
               {
-                icon: "bi-people",
-                title: "User Authentication & Payment Integration",
-                text: "Experience in implementing secure user authentication and payment systems, such as PayPal and M-Pesa integrations.",
+                icon: "bi-braces",
+                title: "JavaScript Frameworks",
+                text: "Proficient in React, Redux, and Node.js for building dynamic, high-performance web applications.",
                 color: "green",
               },
               {
-                icon: "bi-laptop",
-                title: "Responsive Web Development",
-                text: "Proficient in creating responsive web applications using Vue.js, React, and Bootstrap.",
+                icon: "bi-box-arrow-in-up-right",
+                title: "Mobile App Development",
+                text: "Experienced in building cross-platform mobile applications using React Native for iOS, Android, and Web.",
+                color: "orange",
+              },
+              {
+                icon: "bi-cloud",
+                title: "DevOps & Docker",
+                text: "Strong expertise in containerization with Docker and Docker Compose for scalable application deployment.",
+                color: "purple",
+              },
+              {
+                icon: "bi-database",
+                title: "Database Management",
+                text: "Hands-on experience with PostgreSQL, ensuring efficient data management and storage for applications.",
                 color: "red",
+              },
+              {
+                icon: "bi-server",
+                title: "Network & Systems",
+                text: "Proficient with Nginx, Redis, and Celery for building scalable network systems and managing background tasks.",
+                color: "cyan",
+              },
+              {
+                icon: "bi-bar-chart-line",
+                title: "Data Analysis & Power BI",
+                text: "Competent in Excel (VLOOKUP, Pivot Tables, Formulas) and Microsoft Power BI for data analytics and reporting.",
+                color: "teal",
+              },
+              {
+                icon: "bi-cloud-arrow-up",
+                title: "Cloud Services & Deployment",
+                text: "Experienced in cloud computing and deployment, including tools like Docker and managing cloud-based services.",
+                color: "pink",
               },
             ].map((feature, index) => (
               <div className="col-xl-3 col-md-6" key={index} data-aos="zoom-in" data-aos-delay={(index + 1) * 100}>
@@ -166,6 +194,7 @@ const CoreCompetencies = () => {
           </div>
         </div>
       </section>
+
 
       {/* Features 2 Section */}
       <section id="features-2" className="features-2 section">
@@ -261,7 +290,7 @@ const CoreCompetencies = () => {
       </section>
     </>
 
-    
+
   );
 };
 

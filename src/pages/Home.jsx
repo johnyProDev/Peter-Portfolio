@@ -12,6 +12,7 @@ import Services from '../components/Sections/Services/Services';
 import Pricing from '../components/Sections/Pricing/Pricing';
 import Faqs from '../components/Sections/Faqs/Faqs';
 import Contact from '../components/Sections/Contact/Contact';
+import Projects from '../components/Sections/Projects/Projects';
 
 
 const Home = () => {
@@ -30,6 +31,10 @@ const Home = () => {
 
         <section id="competencies" className="features section">
           <CoreCompetencies />
+        </section>
+
+        <section id="projects" className="features section">
+          <Projects />
         </section>
 
 

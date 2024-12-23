@@ -24,7 +24,6 @@ const Contact = () => {
                 </div>
                 <div className="content">
                   <h4>My Location</h4>
-                  <p>123 Developer Lane</p>
                   <p>Nairobi, Kenya</p>
                 </div>
               </div>
@@ -36,7 +35,6 @@ const Contact = () => {
                 <div className="content">
                   <h4>Phone Number</h4>
                   <p>+254 7247 734 26</p>
-                  <p>+254 712 654 321</p>
                 </div>
               </div>
 
@@ -47,10 +45,7 @@ const Contact = () => {
                 <div className="content">
                   <h4>Email Address</h4>
                   <p>
-                    <a href="mailto:contact@johnyirush.com">contact@johnyirush.com</a>
-                  </p>
-                  <p>
-                    <a href="mailto:support@johnyirush.com">support@johnyirush.com</a>
+                    <a href="mailto:pminnovest@gmail.com">pminnovest@gmail.com</a>
                   </p>
                 </div>
               </div>
